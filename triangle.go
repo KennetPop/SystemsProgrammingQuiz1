@@ -32,4 +32,9 @@ func main() {
 	}
 	fmt.Println("Area of circle is: ", c.area())
 	fmt.Println("Perimeter of circle is: ", c.perimeter())
+	
+	area, perimeter := square(5)
+	fmt.Println("Area of square is: ", area())
+	fmt.Println("Perimeter of square is: ",perimeter())
+	
 }
